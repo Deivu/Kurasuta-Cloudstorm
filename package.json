@@ -1,0 +1,38 @@
+{
+  "name": "kurasuta",
+  "version": "1.1.4",
+  "description": "A Custom discord.js Sharding Library inspired by eris-sharder.",
+  "main": "dist/index.js",
+  "typings": "typings/index.d.ts",
+  "scripts": {
+    "prepare": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dev-Yukine/Kurasuta"
+  },
+  "bugs": {
+    "url": "https://github.com/Dev-Yukine/Kurasuta"
+  },
+  "author": "DevYukine",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "Cloudstorm": "git+https://github.com/DasWolke/CloudStorm.git",
+    "node-fetch": "^2.6.0",
+    "veza": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.3",
+    "@types/node-fetch": "^2.5.0",
+    "@types/ws": "^6.0.3",
+    "fs-nextra": "^0.4.5",
+    "gulp": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^5.0.1",
+    "merge2": "^1.2.3",
+    "tslint": "^5.19.0",
+    "tslint-config-fire": "^1.0.1",
+    "typescript": "^3.6.2"
+  }
+}
